@@ -1,0 +1,97 @@
+body{
+margin:0px;}
+
+.heading{
+background-color:#3399CC;
+color:white;
+font-size:55px;
+padding-left:20px;
+height:100px;
+padding-top:30px;
+font-family:Calibri Light;
+margin:0px;
+}
+ul {
+  list-style-type: none;
+  position:relative;
+ padding-left:10px;
+ margin:0px;
+ height:38px;
+  overflow: hidden;
+  background-color: #333333;
+  font-family:Arial;
+ font-size:15px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 13px 16px;
+  text-decoration: none;
+}
+.image{
+position:relative;
+left:1440px;
+padding-top:10px;
+}
+
+.newsbox{
+position:relative;
+left:50px;
+border:1px solid black;
+width:715px;
+height:200px;
+}
+
+.blockheading{
+position :relative;
+top:10px;
+padding-left:10px;
+font-size:20px;
+font-family:calibri;}
+ 
+ .abouttechnovert{
+ padding-left:20px;
+ font-family:calibri;
+ }
+ p span
+ {
+ display:block;
+ }
+ 
+ .paragraph
+ {
+ padding-left:50px;
+ padding-right:225px;
+ }
+ 
+ .welcome
+ {
+ padding-left:50px; 
+ font-size:30px; 
+ font-family:calibri;
+ }
+ .description
+ {
+	 margin-left:30px;
+ }
+ label{
+    display: inline-block;
+    float: left;
+    clear: left;
+	padding-right:100px;
+    width: 250px;
+    text-align: right;
+	padding-bottom:20px;
+	font-weight:1000;
+}
+input {
+  display: inline-block;
+  float: left;
+  margin-left:30px;
+  padding-right:40px;
+}

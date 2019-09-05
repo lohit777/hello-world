@@ -1,0 +1,208 @@
+body{
+	margin:0px;
+}
+.parent {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-line{
+	margin-left:250px;
+}
+
+ul.customer-login {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float:right;
+  margin-top:20px;
+  font-size:10px;
+  margin-right:350px;
+}
+
+
+.customer-info {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 4px 3px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.symbol::after
+{
+	content:"|";
+	color:grey;
+	padding-left:15px;
+}
+.icon{
+	height:9px;
+}
+.services{
+  list-style-type: none;
+padding-left:245px;
+ font-size:12px;
+ background-color:lightgrey;
+    padding-top:5px;
+}
+
+li {
+  float: left;
+}
+
+.services-list{
+
+  display: block;
+  color: grey;
+  text-align: center;
+  margin-left: 13px;
+  margin-right:15px;
+  text-decoration: none;
+}
+a{
+text-decoration:none;
+color:grey;
+}
+.background-image
+{
+	
+	width:100vw;
+	height:850px;
+}
+.bride
+{border-bottom:1px solid grey;
+}
+.offers
+{
+
+	margin-left:250px;
+	margin-top:10px;
+	float:left;
+	color:steelblue;
+	font-size:12px;
+}
+.class-name::before {
+
+    display: block;
+    border-bottom: 1px solid #rrggbb;
+  }
+
+.text{
+	width:200px;
+	height:18px;
+}
+.button
+{
+	height:18px;
+	padding-top:-5px;
+	background-color:white;
+	border-radius:5px;
+}
+.text-box-position
+{
+	padding-left:460px;
+}
+.offers-given
+{display:inline;
+list-style-type:circle;
+
+}
+li.offers-given-list{
+	padding-right:20px;
+}
+.bridal-registry{
+	padding-left:750px;
+	margin-top:-10px;
+}
+.recipe{
+	position:absolute;
+	background-color:white;
+	width:65%;
+	height:500px;
+	padding:5px;
+	
+}
+.recipe-container
+{
+	position:absolute;
+	margin-left:10px;
+	padding:5px;
+	width:1570px;
+	
+}
+.recipes{
+
+	margin-left:250px;
+	margin-top:50px;
+	background-color:white;
+	
+}
+.user-links{
+	  border-bottom:1px solid LightGray;
+  }
+  .dress-table{
+  background-color:white;
+  }
+ .dress-your-table{
+	 background-color:#383735;
+	margin-top:5px;
+     outline-offset:-8px;
+	  outline:1px solid grey;
+	float:right;
+	padding-bottom:95px;
+	width:18%;
+ }
+ 
+ .dress-your-table-heading
+ {
+	 	color:#e3e1e2;
+	 padding-top:40px;
+	 padding-left:55px;
+	 font-family:Calibri;
+ }
+ .dress-your-table-info
+ {
+	 padding-left:55px;
+	 padding-right:15px;
+	 color:#9e9c9c;
+	 font-family:Calibri;
+ }
+ .border{
+	 border-bottom:1px solid grey;
+	 width:60px;
+	 padding-bottom:10px;
+	 
+ }
+ .dishes-types
+ {
+	 color:#929090;
+	 padding-left:55px;
+	 padding-bottom:15px;
+	 font-family:Calibri;
+ }
+ .link{
+	 padding-left:55px;
+	 margin-bottom:20px;
+ }
+ .container-bottom{
+	 position:absolute;
+	 padding:5px;
+	bottom:72px;
+	left:262px;
+	 width:1315px;
+	 
+	 background-color:black;
+ }
+ .glass{ float: left;
+ width: 30%;
+ padding-right:2px;
+ padding-top:20px;
+ text-align:left;
+ background-color:white;color:black;}
+.advantages{position:relative; float: right; width: 30%;color:white;padding-left:1px;padding-right:30px;text-align:left; background-color:black;}
+.aboutus{ display: inline-block; width: 30%; color:white;text-align:left;}

@@ -1,0 +1,228 @@
+<html>
+<head>
+<link rel="stylesheet" href="HTMLSolntask2.css">
+<body>
+
+<div>
+
+<div class="personallogin">
+<ul class="personal">
+
+<li><span><a class="nav client" href="#">Request a Quote</span></a></li>
+<li><span><a class="nav client" href="#">Client Login</span></a></li>
+<li><a class="nav client" href="#">Vehicle Export Portal</a></div></li>
+</ul>
+
+<div class="container">
+
+<ul class="navigation">
+      <li><a class="browse navigationitems" href="#">HOME</a></li>
+      <li><a class="browse navigationitems" href="#">ABOUT FTZWS</a></li>
+      <li><a class="browse navigationitems" href="services.html">OUR SERVICES</a></li>
+      <li><a class="browse navigationitems" href="#">OUR CLIENTS</a></li>
+	  <li><a class="navigationitems" href="#contact us">CONTACT US</a></li>
+	  </ul>
+	   
+<div class="heading"><div class="logo">
+<img src="logo.png">
+</div>
+	BRINGING TECHNOLOGY<br> AND OPERATIONAL EXCELLENCE</div>
+    <div class="aboutfreetradezone">
+	<div class="freetradezone">
+	<img class="brightness images" src="tile1.png">
+<p class="infoaboutftz">Imagine an international gateway where goods and merchandise flow across borders.Where countries lower taxes,reduce red tape,and eliminate road blocks.where companies import goods
+	and merchandise directly into a free trade zone and then ship products out duty free.</p>
+	<p class="infoaboutftz">The miami free trade zone connects  north america , europe and Asia to Latin America and the Caribeian via direct air and sea
+	transportation</p>
+	<a class="linkcolor fontfamily" href="more about free trade zones">More about free Trade Zones</a>
+	</div>
+
+<div class="aboutus">
+<img class="images" src="tile2.png"><p class="infoaboutftz">FTZ World Service ids your ticket to the world.We're the licensed operator of the miami  free trade zone, the "Gateway to the Americas".We process upto $1 billion goods
+from more then 70 countries each year.</p>
+<p class="infoaboutftz">A leader in free trade operations,FTZ works magic behind the screen,offering logical and operational excellence.FTZ's many services include technology,public warehousing,yard storage and onsite U.S. CUSTOMS.
+Other U.S. free trade zones also benefit from our technological support and operational consulting.</p>
+	<a class="linkcolor fontfamily" href="Request a Quote">Request a Quote</a></div>
+	
+<div class="advantages"><img class="images" src="tile3.png">
+<p class="infoaboutftz">FTZ World Service has the unique advantage of being the licensed operator of the Miami free trade zone.We offer the state-of-the-art facilities and a stellar track record in zone 
+management,plus technological support warehousing and storage.Because FTZ understands U.S. custom rules we can use our software and logistical expertise to speed up your paperwork,remove roadblocks and get
+products to market cheaper and faster.We save companies across  multiple industries thousands of dollars per month in fee.We'll give you less to manage and more dollars to keep in your pocket.</p>
+<a class="linkcolor fontfamily" href="More ABOUT what we offer">More About What We Offer</a></div>
+</div>
+</div>
+<div class="copyright">Copyright &#169; 2010 FTZ World Services.All Rights Reserved. <a class="links" href="contact us"><span>Contact Us</span></a> <a class="links" href="request a quote">Request a Quote</a></div>
+</div>
+</body>
+
+
+css
+body{
+	position:relative;
+	background-image: url("bg.jpg");
+	background-repeat:no-repeat;
+	margin:0;
+	background-position:center;
+	background-size:cover;
+
+}
+
+span::after{
+	content:" | ";
+	color:white;
+}
+a.browse::after{
+	position:absolute;
+	content:"|";
+	color:white;
+	padding-left:29px;
+	
+}
+.container{
+	position:relative;
+	padding-top:60px;
+	margin-left:379px;
+	width:1160px;
+}
+.spacing{
+	margin-left:10px;
+	
+}
+.personallogin{
+position:absolute;
+	right:385px;
+	top:0px;
+     background-color:rgb(59,90,137,0.6);
+   padding-top:3px;
+   padding-bottom:4px;
+   font-size:14px;
+   padding-left:2px;
+   padding-right:2px;
+   font-family:calibri;
+   
+   }
+   
+   .nav{
+	   text-decoration:none;
+       color:white;
+   }
+   
+
+
+.logo
+{
+	position:absolute;
+	top:15px;
+	
+	left:15px;
+}
+
+a:hover{
+	background-color:#3b5a89;
+	opacity:0.8;
+	
+	border-radius:5px;
+}
+
+
+
+
+.heading
+{   
+	
+	text-align:left;
+	color:white;
+	font-size:45px;
+	padding-left:20px;
+	padding-top:30px;
+	padding-right:68px;
+	padding-bottom:30px;
+	font-family:calibri,monospace;
+background-color:rgba(16,14,38,0.2);
+letter-spacing:4px;
+}
+.aboutfreetradezone
+{
+	outline:1px solid rgba(211,211,211,0.1);
+	outline-offset:-5px;
+	 padding-top:21px;
+	background: linear-gradient(rgba(16,34,58,1), rgba(16,34,58,0.7));
+	
+	font-size:19px;
+padding-left:20px;
+	padding-bottom:30px;
+}
+.brightness{
+	filter:contrast(130%);
+}
+.images{
+	width:100%;
+}
+
+.freetradezone{ position:relative;float: left; width: 30%;margin-top:5px;color:white; padding-left:20px;padding-right:28px;text-align:left;}
+.advantages{position:relative; float: right; width: 30%;color:white;padding-left:1px;padding-right:30px;text-align:left; }
+.aboutus{ display: inline-block; width: 30%; color:white;text-align:left;}
+.infoaboutftz{width:100%;
+font-size:17px;
+font-family:Calibri;
+}
+.fontfamily{
+	font-family:Calibri;
+	font-size:19px;
+	color:lightblue;
+	text-underline-position:under;
+}
+.linkcolor::after{
+	
+	content:">";
+}
+.copyright{
+	position:absolute;
+	bottom:10px;
+	background-color:#29416d;
+	padding-top:5px;
+	padding-bottom:5px;
+   left:378px;
+   padding-left:290px;
+   padding-right:290px;
+   color:white;
+   text-decoration:none;
+}
+.links{
+	color:white;
+}
+
+ul.personal{
+	padding-left:5px;
+	list-style-type: none;
+  margin: 0;
+  
+}
+a.client{
+	text-align:center;
+	padding:2px 2px;
+	text-decoration:none;
+}
+ul.navigation {
+	outline:1px solid rgba(211,211,211,0.3);
+	outline-offset:-5px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 285px;
+  overflow: hidden;
+  background-color:rgba(16,34,58,0.8);
+  padding-bottom:20px;
+  padding-top:20px;
+}
+
+li {
+  float: left;
+}
+ a.navigationitems{
+	  font-size: 20px;
+  font-family:calibri;
+  color: skyblue;
+  text-align: center;
+  padding: 4px 34px;
+  text-decoration: none;
+}
